@@ -1024,7 +1024,7 @@ USBInfoCommand::USBInfoCommand(const char *cmd_line) : Command(cmd_line) {}
 
 void JobsList::removeFinishedJobs() {
     if (jobs_list.empty()) {
-        max_id = 0;
+        max_id =  0;
         return;
     }
 
