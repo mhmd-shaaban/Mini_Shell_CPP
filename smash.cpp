@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
         std::cout << smash.getPrompt() << "> ";
         std::flush(std::cout); // Forces the prompt to show on the screen instantly!
 
-        std::string cmd_line;
+        std::string cmd_line ;
         // Check if getline actually successfully read a line.
         // If it reaches the end of a test file, break out of the infinite loop.
         if (!std::getline(std::cin, cmd_line)) {
