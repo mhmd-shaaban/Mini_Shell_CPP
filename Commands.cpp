@@ -1011,7 +1011,7 @@ ForegroundCommand::ForegroundCommand(const char *cmd_line, JobsList *jobs)  : Bu
 QuitCommand::QuitCommand(const char *cmd_line, JobsList *jobs) :BuiltInCommand(cmd_line) , m_list(jobs) {}
 KillCommand::KillCommand(const char *cmd_line, JobsList *jobs) : BuiltInCommand(cmd_line) , m_list(jobs) {}
 AliasCommand::AliasCommand(const char *cmd_line) : BuiltInCommand(cmd_line) {}
-UnAliasCommand::UnAliasCommand(const char *cmd_line) : BuiltInCommand(cmd_line) {}
+UnAliasCommand::UnAliasCommand(const char *cmd_line) : BuiltInCommand(cmd_line)  {}
 UnSetEnvCommand::UnSetEnvCommand(const char *cmd_line) : BuiltInCommand(cmd_line) {}
 SysInfoCommand::SysInfoCommand(const char *cmd_line) : BuiltInCommand(cmd_line) {}
 RedirectionCommand::RedirectionCommand(const char *cmd_line) : Command(cmd_line) {}
