@@ -16,7 +16,7 @@ Smash ("Small Shell") is a simplified reimplementation of a Unix shell. It parse
 - `jobs` — list background/stopped jobs
 - `fg [job-id]` — bring a job to the foreground
 - `kill -<signal> <job-id>` — send a signal to a job
-- `alias` / `unalias` — define and remove command aliases
+- `alias` / `unalias` — define and remove command  aliases
 - `unsetenv <var>` — remove an environment variable
 - `sysinfo` — display system information
 - `du` — report disk usage
