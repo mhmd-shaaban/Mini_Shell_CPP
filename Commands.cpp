@@ -1005,7 +1005,7 @@ JobsList::JobsList() {
     max_id = 0;
 }
 ExternalCommand::ExternalCommand(const char *cmd_line) : Command(cmd_line) {
-    m_background = _isBackgroundComamnd(cmd_line);
+    m_background =  _isBackgroundComamnd(cmd_line);
 }
 ForegroundCommand::ForegroundCommand(const char *cmd_line, JobsList *jobs)  : BuiltInCommand(cmd_line){}
 QuitCommand::QuitCommand(const char *cmd_line, JobsList *jobs) :BuiltInCommand(cmd_line) , m_list(jobs) {}
