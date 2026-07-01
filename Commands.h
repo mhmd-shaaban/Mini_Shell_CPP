@@ -14,7 +14,7 @@ class JobEntry;
 class Command {
     // TODO: Add your data members
 protected:
-    std::string cmd_line;
+    std::string  cmd_line;
     std::string original_cmd;
     //commands remember what we type
 public:
