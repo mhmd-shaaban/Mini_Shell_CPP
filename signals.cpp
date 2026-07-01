@@ -8,7 +8,7 @@ using namespace std;
 void ctrlCHandler(int sig_num) {
     // TODO: Add your implementation
     cout << "smash: got ctrl-C" << endl;
-    SmallShell& myShell = SmallShell::getInstance();
+    SmallShell& myShell =  SmallShell::getInstance();
     if(myShell.getcurrPID() == 0){
         return;
     }
